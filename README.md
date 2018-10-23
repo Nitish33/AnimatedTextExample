@@ -14,7 +14,7 @@
 
 <pre>
   <code>
- <devnitish.com.animatedtext.AnimatedTextView
+ 	<devnitish.com.animatedtext.AnimatedTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/animatedText2"
@@ -22,8 +22,7 @@
         android:textSize="30dp"
         android:textStyle="bold"
         android:fontFamily="cursive"
-        app:autoStart="false"
-        />	
+        app:autoStart="false"/>	
 	</code>
 </pre>
    </body>
