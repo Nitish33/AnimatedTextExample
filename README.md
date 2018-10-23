@@ -11,6 +11,29 @@
 <image src = "/images/videotogif_2018.10.23_14.20.32.gif">
   
 Above gif show typo effect
+
+<h1>Setup</h1>
+
+<h4>App jitpakc repository in your root build.gradle at the end of repositories</h4>
+<pre>
+<code>
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+ </code>
+ </pre>
+ 
+ <h4> Add the dependency</h4>
+ <pre>
+ <code>
+ dependencies {
+	        implementation 'com.github.Nitish33:AnimatedText:Tag'
+	}
+ </code>
+ </pre>
   
 <h1> XML </h1>
 <h2> Simple Example</h2>
@@ -39,6 +62,21 @@ app:autoStart="false"
 /&gt
 </code>
 </pre>
+
+<h3> Controlling Animation Speed</h3>
+You can control the speed of animation using <bold>animInterval<bold>
+ <br>
+ animInterval - Time delay between two character
+<pre>
+<code>	
+&ltdevnitish.com.animatedtext.AnimatedTextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+app:animInterval="500"
+/&gt
+</code>
+</pre>
+ 
 
 <h1>Java</h1>
 Java Provides more flexibility and effects on the textview.<br>
