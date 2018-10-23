@@ -151,7 +151,7 @@ If you want some pause between to string you can specify delay in this parameter
         allDelays.add(500);
         allDelays.add(10);
         
-        textView.animateText(allString,allInteger,allDelays,true);
+        textView.animateText(allString,allInteger,allDelays);
  
  </code>
  </pre>
@@ -170,6 +170,47 @@ If you want some pause between to string you can specify delay in this parameter
 <h4> overlap</h4>
 If you want to show animation in which previous string is removed which writting new string , than you can use this function 
 alternative.
+
+<h4> Usage</h4>
+
+<pre>
+<code>
+ 
+        ArrayList<String> allString = new ArrayList<>();
+//        allString.add("N");
+        allString.add("Nitish");
+        allString.add(" Prasad");
+        allString.add("How are you.What are you doing.");
+        allString.add("This is a simple Library");
+        allString.add("To Show Typo Effect on the text view");
+        allString.add("I will add more effect");
+        allString.add("in the library with time.");
+
+
+        ArrayList<Integer> allInteger = new ArrayList<>();
+//        allInteger.add(50);
+        allInteger.add(50);
+        allInteger.add(50);
+        allInteger.add(50);
+        allInteger.add(50);
+        allInteger.add(50);
+        allInteger.add(50);
+        allInteger.add(50);
+        
+        ArrayList<Integer> allDelays = new ArrayList<>();
+//        allDelays.add(1000);
+        allDelays.add(100);
+        allDelays.add(100);
+        allDelays.add(100);
+        allDelays.add(500);
+        allDelays.add(10);
+        allDelays.add(500);
+        allDelays.add(10);
+        
+        textView.animateText(allString,allInteger,allDelays,true);
+ 
+ </code>
+ </pre>
 
 </body>
 
