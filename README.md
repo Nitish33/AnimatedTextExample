@@ -26,7 +26,7 @@ allprojects {
  <pre>
  <code>
  dependencies {
-	        implementation 'com.github.Nitish33:AnimatedText:Tag'
+	       implementation 'com.github.Nitish33:AnimatedText:v1.0'
 	}
  </code>
  </pre>
