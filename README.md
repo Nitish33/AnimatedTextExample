@@ -22,18 +22,29 @@ Above gif show typo effect
 &ltdevnitish.com.animatedtext.AnimatedTextView
 android:layout_width="match_parent"
 android:layout_height="wrap_content"
-android:id="@+id/animatedText2"
-android:gravity="center"
-android:textSize="30dp"
-android:textStyle="bold"
-android:fontFamily="cursive"
-app:autoStart="false"/&gt	
+/&gt
+</code>
+</pre>
+
+<h3> Not triggering animation on start</h3>
+
+Property :  autoState = 'false'
+
+<pre>
+<code>	
+&ltdevnitish.com.animatedtext.AnimatedTextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+app:autoStart="false"
+/&gt
 </code>
 </pre>
 
 
 
 </body>
+
+
 
 
 
