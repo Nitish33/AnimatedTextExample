@@ -54,6 +54,7 @@ Java Provides more flexibility and effects on the textview.<br>
  Above Line start a simple typo animation. 
 <br>
 
+<image src = "/images/Gif2.gif">
 
 If you have multiple lines and and want to show different delay and speed typo animation. You can do it with
 overloaded animateText();
