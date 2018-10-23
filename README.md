@@ -54,10 +54,11 @@ Java Provides more flexibility and effects on the textview.<br>
  Above Line start a simple typo animation. 
 <br>
 
+
 If you have multiple lines and and want to show different delay and speed typo animation. You can do it with
 overloaded animateText();
 
-<h4> Function Signature</h4>
+<h4> #1Function Signature</h4>
 <pre>
 <code>
     public void animateText(final ArrayList<String> allString,
@@ -71,8 +72,38 @@ This parameter store all the string which you want to show.
 <h4> AllSpeed </h4> 
 This parameter store the timedelay between two two alphabet
 
+<h4> Usage</h4>
 
-<h4> Function Signature</h4>
+<pre>
+<code>
+ 
+        ArrayList<String> allString = new ArrayList<>();
+//        allString.add("N");
+        allString.add("Nitish");
+        allString.add(" Prasad");
+        allString.add("How are you.What are you doing.");
+        allString.add("This is a simple Library");
+        allString.add("To Show Typo Effect on the text view");
+        allString.add("I will add more effect");
+        allString.add("in the library with time.");
+
+
+        ArrayList<Integer> allInteger = new ArrayList<>();
+//        allInteger.add(50);
+        allInteger.add(50);
+        allInteger.add(50);
+        allInteger.add(50);
+        allInteger.add(50);
+        allInteger.add(50);
+        allInteger.add(50);
+        allInteger.add(50);
+        
+        textView.animateText(allString,allInteger);
+ 
+ </code>
+ </pre>
+
+<h4> #2Function Signature</h4>
 <pre>
 <code>
     public void animateText(final ArrayList<String> allString,
@@ -84,8 +115,49 @@ This parameter store the timedelay between two two alphabet
 <h4> allDelay</h4>
 If you want some pause between to string you can specify delay in this parameter.
 
+<h4> Usage</h4>
 
-<h4> Function Signature</h4>
+<pre>
+<code>
+ 
+        ArrayList<String> allString = new ArrayList<>();
+//        allString.add("N");
+        allString.add("Nitish");
+        allString.add(" Prasad");
+        allString.add("How are you.What are you doing.");
+        allString.add("This is a simple Library");
+        allString.add("To Show Typo Effect on the text view");
+        allString.add("I will add more effect");
+        allString.add("in the library with time.");
+
+
+        ArrayList<Integer> allInteger = new ArrayList<>();
+//        allInteger.add(50);
+        allInteger.add(50);
+        allInteger.add(50);
+        allInteger.add(50);
+        allInteger.add(50);
+        allInteger.add(50);
+        allInteger.add(50);
+        allInteger.add(50);
+        
+        ArrayList<Integer> allDelays = new ArrayList<>();
+//        allDelays.add(1000);
+        allDelays.add(100);
+        allDelays.add(100);
+        allDelays.add(100);
+        allDelays.add(500);
+        allDelays.add(10);
+        allDelays.add(500);
+        allDelays.add(10);
+        
+        textView.animateText(allString,allInteger,allDelays,true);
+ 
+ </code>
+ </pre>
+
+
+<h4> #3Function Signature</h4>
 <pre>
 <code>
     public void animateText(final ArrayList<String> allString,
@@ -99,12 +171,7 @@ If you want some pause between to string you can specify delay in this parameter
 If you want to show animation in which previous string is removed which writting new string , than you can use this function 
 alternative.
 
-
-
 </body>
-
-
-
 
 
 </html>
